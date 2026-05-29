@@ -1,4 +1,4 @@
-# AI-Assisted Cybersecurity Risk Governance Platform
+# Operational Cybersecurity Risk Analytics & Governance Dashboard integrated with AI, Power BI, and SQL
 
 ## Project Overview
 This project is a cybersecurity risk governance and business analytics platform designed to help organizations monitor incidents, analyze risks, and support executive-level decision-making.

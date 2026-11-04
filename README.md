@@ -1,72 +1,35 @@
-# Operational Cybersecurity Risk Analytics & Governance Dashboard integrated with AI, Power BI, and SQL
+# Cybersecurity Risk Governance Platform
 
 ## Project Overview
-This project is a cybersecurity risk governance and business analytics platform designed to help organizations monitor incidents, analyze risks, and support executive-level decision-making.
+This project explores how organisations can identify, assess, monitor, and manage cybersecurity risks through a structured risk governance approach.
 
-The platform combines SQL analytics, risk scoring, and Power BI visualization to provide centralized visibility into cybersecurity operations and organizational risk exposure.
+## Project Objectives
+- Identify cybersecurity risks and potential control gaps.
+- Assess risks based on their likelihood and business impact.
+- Organise and track cybersecurity incidents.
+- Support risk-based decision-making.
+- Present risk information in a structured format.
 
----
-
-## Business Problem
-Organizations often struggle with:
-- Lack of centralized cybersecurity visibility
-- Difficulty prioritizing risks
-- Limited governance reporting
-- Poor incident tracking
-- Inconsistent risk analysis
-
-This project addresses those challenges through structured analytics and dashboard reporting.
-
----
-
-## Objectives
-- Track cybersecurity incidents
-- Analyze business risks
-- Monitor departmental exposure
-- Generate executive KPI dashboards
-- Support governance and risk management
-
----
-
-## Technologies Used
-- MySQL
-- SQL
+## Tools & Technologies
+- SQL / MySQL
 - Power BI
-- Git & GitHub
-- VS Code
+- Risk Analytics
+- Cybersecurity Governance
 
----
+## Key Areas
+- Risk identification
+- Risk assessment and prioritisation
+- Incident tracking
+- Security control monitoring
+- Risk reporting
 
-## Project Features
-- Incident Management System
-- Risk Scoring Framework
-- Department Risk Analysis
-- Executive KPI Dashboard
-- Severity Distribution Analysis
-- Incident Trend Monitoring
-- Governance Reporting
+## Business Relevance
+Effective cybersecurity risk governance helps organisations:
+- Understand their security risk exposure.
+- Prioritise critical risks.
+- Improve visibility into incidents.
+- Support management decisions.
+- Strengthen security and governance practices.
 
----
-
-## Dashboard Insights
-The Power BI dashboard provides:
-- Total incidents tracking
-- Open incident monitoring
-- Critical risk identification
-- Department risk exposure analysis
-- Incident severity visualization
-- Operational trend analysis
-
----
-
-## Folder Structure
-
-```text
-cyber-risk-governance-platform
-│
-├── docs
-├── sql
-├── dashboard
-├── reports
-├── screenshots
-└── README.md
+## Project Outcome
+A practical demonstration of applying risk management and analytics concepts to cybersecurity governance.

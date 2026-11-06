@@ -1,7 +1,7 @@
 # Business Requirements Document
 
 ## Project Title
-AI-Assisted Cybersecurity Risk Management Platform
+Cybersecurity Risk Governance Platform
 
 ## Problem Statement
 The organization lacks centralized visibility into cybersecurity incidents, business risks, and remediation tracking.

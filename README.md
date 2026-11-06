@@ -1,35 +1,73 @@
+
 # Cybersecurity Risk Governance Platform
 
 ## Project Overview
-This project explores how organisations can identify, assess, monitor, and manage cybersecurity risks through a structured risk governance approach.
+
+This project demonstrates how cybersecurity risks can be identified, assessed, prioritised and presented to support organisational risk management and decision-making.
+
+It combines a sample cybersecurity risk register, SQL-based analysis queries and a Power BI dashboard file to illustrate a structured approach to cybersecurity risk governance.
 
 ## Project Objectives
-- Identify cybersecurity risks and potential control gaps.
-- Assess risks based on their likelihood and business impact.
-- Organise and track cybersecurity incidents.
-- Support risk-based decision-making.
-- Present risk information in a structured format.
 
-## Tools & Technologies
-- SQL / MySQL
-- Power BI
-- Risk Analytics
-- Cybersecurity Governance
+- Identify common cybersecurity risks.
+- Assess risks based on likelihood and business impact.
+- Calculate and prioritise risk scores.
+- Document mitigation measures.
+- Demonstrate incident tracking and risk reporting concepts.
 
-## Key Areas
-- Risk identification
-- Risk assessment and prioritisation
-- Incident tracking
-- Security control monitoring
-- Risk reporting
+## Tools and Technologies
+
+- MySQL – database structure and SQL analysis
+- Power BI – dashboard development
+- CSV – sample cybersecurity risk register
+
+## Project Structure
+
+- `data/` – Sample cybersecurity risk register
+- `sql/` – Database schema and analysis queries
+- `dashboard/` – Power BI dashboard file
+- `docs/` – Business requirements documentation
+- `reports/` – Executive summary
+
+## Risk Assessment Method
+
+Risk score is calculated using:
+
+**Risk Score = Likelihood × Impact**
+
+Likelihood and impact are assessed on a scale of 1 to 5.
+
+The sample risk register contains three illustrative risks:
+
+- Phishing Attack
+- Malware Infection
+- Weak Passwords
+
+## Key Analysis Areas
+
+- Risk identification and prioritisation
+- Likelihood and impact assessment
+- Risk score distribution
+- Mitigation overview
+- Incident severity and status analysis
+- Executive-level risk reporting
 
 ## Business Relevance
-Effective cybersecurity risk governance helps organisations:
-- Understand their security risk exposure.
-- Prioritise critical risks.
-- Improve visibility into incidents.
-- Support management decisions.
-- Strengthen security and governance practices.
+
+The project demonstrates how structured risk information can help organisations:
+
+- Understand cybersecurity exposure.
+- Prioritise risks requiring attention.
+- Review mitigation measures.
+- Improve visibility for management.
+- Support informed risk-related decisions.
+
+## Project Scope and Limitations
+
+This is an educational portfolio project using illustrative risk records. It is not a deployed enterprise security platform or a live incident monitoring system.
+
+The SQL files demonstrate database design and analysis queries. The Power BI dashboard is included as a project artefact.
 
 ## Project Outcome
-A practical demonstration of applying risk management and analytics concepts to cybersecurity governance.
+
+The project demonstrates the application of business analytics and cybersecurity risk management concepts through structured data, SQL queries and dashboard reporting.

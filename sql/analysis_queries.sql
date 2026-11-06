@@ -251,7 +251,7 @@ ORDER BY risk_score DESC;
 -- =========================================================
 
 SELECT risk_name,
-       mitigation_plan
+       mitigation
 FROM risks;
 
 

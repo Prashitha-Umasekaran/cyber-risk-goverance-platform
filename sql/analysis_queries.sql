@@ -274,7 +274,7 @@ WHERE likelihood >= 4;
 
 SELECT *
 FROM risks
-WHERE impact_score >= 4;
+WHERE impact >= 4;
 
 
 -- =========================================================

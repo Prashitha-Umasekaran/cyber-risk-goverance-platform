@@ -11,3 +11,12 @@ CREATE TABLE incidents (
     status VARCHAR(50),
     created_date DATE
 );
+
+CREATE TABLE risks (
+    risk_id INT PRIMARY KEY,
+    risk_name VARCHAR(100),
+    likelihood INT,
+    impact INT,
+    risk_score INT,
+    mitigation VARCHAR(255)
+);

@@ -1,4 +1,6 @@
-risk_id,risk_name,likelihood,impact,risk_score,mitigation
-1,Phishing Attack,5,4,20,Employee Awareness Training
-2,Malware Infection,4,5,20,Endpoint Protection
-3,Weak Passwords,3,4,12,MFA Enforcement
+risk_id,risk_name,department,likelihood,impact_score,risk_score,mitigation_plan
+1,Phishing Attack,Finance,5,4,20,MFA implementation and awareness training
+2,Ransomware Threat,Operations,4,5,20,Endpoint isolation and backup strategy
+3,Weak Password Usage,HR,3,4,12,Password policy enforcement
+4,Insider Threat,Finance,2,5,10,Access monitoring and audit logging
+5,Malware Infection,IT,4,4,16,Endpoint protection deployment

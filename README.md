@@ -1,73 +1,124 @@
-
 # Cybersecurity Risk Governance Platform
 
 ## Project Overview
 
-This project demonstrates how cybersecurity risks can be identified, assessed, prioritised and presented to support organisational risk management and decision-making.
+This project demonstrates how cybersecurity risks and security incidents can be organised, assessed, prioritised and presented through business intelligence reporting.
 
-It combines a sample cybersecurity risk register, SQL-based analysis queries and a Power BI dashboard file to illustrate a structured approach to cybersecurity risk governance.
+It combines a MySQL database structure, SQL analysis queries, cybersecurity risk and incident registers, and a Power BI dashboard. The objective is to demonstrate how cybersecurity information can support risk visibility, management reporting and informed business decisions.
 
 ## Project Objectives
 
-- Identify common cybersecurity risks.
-- Assess risks based on likelihood and business impact.
+- Identify and document cybersecurity risks.
+- Assess risks using likelihood and business impact.
 - Calculate and prioritise risk scores.
-- Document mitigation measures.
-- Demonstrate incident tracking and risk reporting concepts.
+- Record mitigation plans.
+- Analyse incident severity, status and trends.
+- Present cybersecurity information through an executive-oriented dashboard.
 
 ## Tools and Technologies
 
-- MySQL – database structure and SQL analysis
-- Power BI – dashboard development
-- CSV – sample cybersecurity risk register
+- **MySQL** – Database design and SQL analysis
+- **Power BI** – Dashboard development and visual reporting
+- **Microsoft Excel / CSV** – Data preparation and registers
+- **DAX** – Dashboard measures and calculations
 
 ## Project Structure
 
-- `data/` – Sample cybersecurity risk register
-- `sql/` – Database schema and analysis queries
-- `dashboard/` – Power BI dashboard file
-- `docs/` – Business requirements documentation
-- `reports/` – Executive summary
+```text
+cyber-risk-goverance-platform/
+│
+├── dashboard/
+│   └── Cybersecurity_Risks_Governance_Dashboard.pbix
+│
+├── data/
+│   ├── risk_register.csv
+│   └── incident_register.csv
+│
+├── docs/
+│   └── BRD.md
+│
+├── reports/
+│   └── executive_summary.md
+│
+├── sql/
+│   ├── schema.sql
+│   ├── analysis_queries.sql
+│   └── insert_incident_data.sql
+│
+└── README.md
+```
 
 ## Risk Assessment Method
 
-Risk score is calculated using:
+The project uses a basic risk scoring approach:
 
 **Risk Score = Likelihood × Impact**
 
-Likelihood and impact are assessed on a scale of 1 to 5.
+Both likelihood and impact are assessed on a scale of 1 to 5.
 
-The sample risk register contains three illustrative risks:
+The risk register contains five illustrative cybersecurity risks:
 
 - Phishing Attack
+- Ransomware Threat
+- Weak Password Usage
+- Insider Threat
 - Malware Infection
-- Weak Passwords
 
-## Key Analysis Areas
+The records include department, likelihood, impact score, calculated risk score and mitigation plan.
 
-- Risk identification and prioritisation
-- Likelihood and impact assessment
-- Risk score distribution
-- Mitigation overview
-- Incident severity and status analysis
-- Executive-level risk reporting
+## Power BI Dashboard
+
+The Power BI dashboard presents cybersecurity risk and incident information in a management-friendly format.
+
+### Key Performance Indicators
+
+- **Total Incidents** – Number of incidents in the dashboard dataset.
+- **Open Incidents** – Incidents currently marked as open.
+- **Critical Incidents** – Incidents classified as critical.
+- **Critical Risks** – Risks with a score of 15 or above.
+- **Total Risks** – Number of risks in the risk register.
+
+### Dashboard Visualisations
+
+1. **Incident Severity Distribution** – Shows how incidents are distributed across severity levels.
+2. **Department-wise Cybersecurity Risk Exposure** – Compares risk scores across departments.
+3. **Cumulative Cybersecurity Incidents Over Time** – Shows the cumulative number of recorded incidents over time.
+
+### Dashboard File
+
+`dashboard/Cybersecurity_Risks_Governance_Dashboard.pbix`
+
+## SQL Analysis
+
+The SQL scripts demonstrate:
+
+- Database and table creation.
+- Risk and incident data management.
+- Risk score analysis.
+- Department-wise risk assessment.
+- Incident severity and status analysis.
+- Queries to support management reporting.
 
 ## Business Relevance
 
-The project demonstrates how structured risk information can help organisations:
+The project demonstrates how business analytics can support cybersecurity governance by helping organisations:
 
-- Understand cybersecurity exposure.
-- Prioritise risks requiring attention.
+- Identify and prioritise significant risks.
+- Understand department-wise risk exposure.
+- Monitor incident status and severity.
 - Review mitigation measures.
-- Improve visibility for management.
-- Support informed risk-related decisions.
+- Communicate cybersecurity information through management dashboards.
 
 ## Project Scope and Limitations
 
-This is an educational portfolio project using illustrative risk records. It is not a deployed enterprise security platform or a live incident monitoring system.
+This is an educational portfolio project using illustrative cybersecurity data.
 
-The SQL files demonstrate database design and analysis queries. The Power BI dashboard is included as a project artefact.
+The dashboard is not connected to a live security monitoring system. Incident records include simulated sample details for demonstration, and dashboard metrics should therefore be interpreted within the scope of the sample dataset.
+
+The project demonstrates risk reporting and governance concepts; it does not represent a deployed enterprise security platform or a production-ready risk management solution.
 
 ## Project Outcome
 
-The project demonstrates the application of business analytics and cybersecurity risk management concepts through structured data, SQL queries and dashboard reporting.
+This project demonstrates the practical application of cybersecurity risk management and business analytics through database design, SQL analysis, structured risk registers and Power BI reporting.
+
+It highlights how technical cybersecurity information can be organised and communicated to support business-facing risk assessment and decision-making.

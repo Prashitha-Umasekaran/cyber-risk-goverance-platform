@@ -43,7 +43,7 @@ GROUP BY assigned_to;
 SELECT *
 FROM incidents
 WHERE severity = 'Critical'
-AND status <> 'Closed';
+AND status IN ('Open', 'In Progress');
 
 -- 8. Critical incidents by department
 SELECT department, COUNT(*) AS critical_incidents

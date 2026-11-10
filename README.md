@@ -93,19 +93,29 @@ The records include department, likelihood, impact score, calculated risk score 
 
 The Power BI dashboard presents cybersecurity risk and incident information in a management-friendly format.
 
-### Key Performance Indicators
+### Dashboard KPI Values
 
-- **Total Incidents** – Number of incidents in the dashboard dataset.
-- **Open Incidents** – Incidents currently marked as open.
-- **Critical Incidents** – Incidents classified as critical.
-- **Critical Risks** – Risks with a score of 15 or above.
-- **Total Risks** – Number of risks in the risk register.
+The dashboard currently displays the following values:
+
+| KPI | Dashboard value |
+|---|---:|
+| Total Incidents | 13 |
+| Open Incidents | 5 |
+| Critical Incidents | 5 |
+| Total Risks | 5 |
+| Critical Risks | 3 |
+
+For this dashboard, critical risks are identified using the project's risk-priority threshold (risk score of 15 or above).
 
 ### Dashboard Visualisations
 
-1. **Incident Severity Distribution** – Shows how incidents are distributed across severity levels.
-2. **Department-wise Cybersecurity Risk Exposure** – Compares risk scores across departments.
-3. **Cumulative Cybersecurity Incidents Over Time** – Shows the cumulative number of recorded incidents over time.
+1. **Incident Severity Distribution (Pie Chart)** – Shows the proportion of incidents across severity categories.
+2. **Department-wise Cybersecurity Risk Exposure (Bar Chart)** – Displays the department-wise values shown in the dashboard: Finance (30), Operations (20), IT (16) and HR (12).
+3. **Cumulative Cybersecurity Incidents Over Time (Line Chart)** – Displays the cumulative incident trend for the period 27 September to 18 October.
+
+### Data Consistency Note
+
+The dashboard figures above are transcribed from the Power BI dashboard. The `data/incident_register.csv` file currently contains 8 incident rows, while the dashboard KPI displays 13 total incidents. These figures therefore represent different available views and should not be treated as a one-to-one reconciliation. The CSV should be updated or the dashboard's data source documented before claiming that all 13 dashboard incidents are included in the repository. The department values and date range above are also dashboard-displayed values, not independently recalculated from the CSV.
 
 ### Dashboard File
 

@@ -6,6 +6,29 @@ This project demonstrates how cybersecurity risks and security incidents can be 
 
 It combines a MySQL database structure, SQL analysis queries, cybersecurity risk and incident registers, and a Power BI dashboard. The objective is to demonstrate how cybersecurity information can support risk visibility, management reporting and informed business decisions.
 
+## Project Snapshot
+
+| Area | Summary |
+|---|---|
+| Business problem | Give management a structured view of documented cyber risks and incident records |
+| Risk data | 5 illustrative risks assessed using likelihood × impact |
+| Incident data | 8 illustrative incident records |
+| Database and analysis | MySQL schema and SQL queries |
+| Reporting | Power BI dashboard with risk and incident KPIs |
+| Intended audience | Management, IT, SOC and compliance stakeholders |
+
+### Sample-Data Insights
+
+Based on the CSV records included in this repository:
+
+- **3 of 5 risks** have a calculated score of 15 or higher.
+- The highest recorded risk score is **20 out of 25**.
+- **3 of 8 incidents** are marked Critical.
+- All 3 Critical incident records are marked Open in this sample.
+- The sample therefore illustrates why management reporting should show both incident severity and resolution status, rather than incident counts alone.
+
+These are counts from the illustrative portfolio dataset, not measurements of a real organisation or evidence of actual security exposure.
+
 ## Project Objectives
 
 - Identify and document cybersecurity risks.
